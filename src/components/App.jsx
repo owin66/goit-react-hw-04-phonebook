@@ -39,7 +39,7 @@ export const App = () => {
   };
 
   const filterContacts = e => {
-    setFilter({ filterUser: e.currentTarget.value });
+    setFilter(e.currentTarget.value);
   };
 
   const deleteContacts = id => {
