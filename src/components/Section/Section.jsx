@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { ContactListContainer } from './Component.styled';
+import { ContactListContainer } from '../Component.styled';
 
 export const Section = ({ title, children }) => {
   return (

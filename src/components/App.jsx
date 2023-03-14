@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import { Section } from './Section';
-import { ContactForm } from './ContactForm ';
-import { ContactsList } from './ContactList';
-import { Filter } from './Filter';
+import { Section } from './Section/Section';
+import { ContactForm } from './Contact/ContactForm ';
+import { ContactsList } from './Contact/ContactList';
+import { Filter } from './Filter/Filter';
 import { nanoid } from 'nanoid';
 import { Report } from 'notiflix/build/notiflix-report-aio';
 import PropTypes from 'prop-types';
